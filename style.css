@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Play&family=Righteous&family=Sarala&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Play", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(60deg, #c22ed0, #5ffae0);
+    color: #ccfbff;
+}
+
+.form {
+    width: 330px;
+    height: 560px;
+    border: solid #ffffff;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    margin-top: 15px;
+    width: 300px;
+    height: 300px;
+}
+
+.description {
+    width: 300px;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.duration {
+    width: 300px;
+    margin-top: 25px;
+}
+
+.timer {
+    width: 300px;
+    height: 6px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+progress {
+    height: 6px;
+    width: 0%;
+}
+
+.score {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-left: -10px;
+}
+
+.time {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.player {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+    align-items: center;
+}
+
+.fa-play-circle,
+.fa-pause-circle {
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.fa-arrow-circle-left,
+.fa-arrow-circle-right {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.fa-pause-circle {
+    display: none;
+}
